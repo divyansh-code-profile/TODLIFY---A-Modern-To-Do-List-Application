@@ -4,7 +4,7 @@ TODLIFY is a full-stack MERN (MongoDB, Express, React, Node.js) application desi
 
 ---
 
-## ✨ Features
+##  Features
 
 - **Secure User Authentication**: Sign up and log in with JWT (JSON Web Token) based authentication. Passwords are securely hashed using `bcrypt`.
 - **Full CRUD Functionality**: Create, Read, Update, and Delete your to-do tasks.
@@ -16,7 +16,7 @@ TODLIFY is a full-stack MERN (MongoDB, Express, React, Node.js) application desi
 
 ---
 
-## 💻 Tech Stack
+##  Tech Stack
 
 - **Frontend**: React, React Bootstrap
 - **Backend**: Node.js, Express.js
@@ -27,7 +27,7 @@ TODLIFY is a full-stack MERN (MongoDB, Express, React, Node.js) application desi
 
 ---
 
-## 🚀 Getting Started on Windows
+##  Getting Started on Windows
 
 Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
 
@@ -102,7 +102,7 @@ Now, start the server. It will automatically connect to your database and start 
 
 npm run dev
 
-You should see messages like "✅ Successfully connected to the database." and "🚀 Server is running on port 3001" in your terminal.
+You should see messages like " Successfully connected to the database." and "🚀 Server is running on port 3001" in your terminal.
 
 **Leave this terminal window running!**
 
@@ -138,32 +138,9 @@ This will automatically open a new tab in your default web browser pointed to `h
 
 ---
 
-### ✅ You're All Set!
+### You're All Set!
 
 The application should now be running. The React frontend at `localhost:3000` will communicate with the Node.js backend API at `localhost:3001`. You can now sign up for an account and start managing your tasks.
-
-### Project Structure
-
-Here is a high-level overview of the project's directory structure:
-
-.
-├── api/                  # Backend (Node.js/Express)
-│   ├── models/           # Mongoose schemas (Todo, User)
-│   ├── .env              # Environment variables (you create this)
-│   ├── package.json
-│   ├── reminder.js       # Nodemailer email sending logic
-│   ├── schedule.js       # Node-cron scheduler logic
-│   └── server.js         # Main Express server file
-│
-├── TodoUsingReact/       # Frontend (React)
-│   ├── public/
-│   ├── src/
-│   │   ├── Components/   # Reusable React components
-│   │   ├── App.js
-│   │   └── index.js
-│   └── package.json
-│
-└── README.md             # This file
 
 
 ### Available Scripts
