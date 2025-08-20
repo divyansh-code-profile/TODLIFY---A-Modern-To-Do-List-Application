@@ -102,7 +102,7 @@ Now, start the server. It will automatically connect to your database and start 
 
 npm run dev
 
-You should see messages like " Successfully connected to the database." and "🚀 Server is running on port 3001" in your terminal.
+You should see messages like " Successfully connected to the database." and " Server is running on port 3001" in your terminal.
 
 **Leave this terminal window running!**
 
