@@ -1,0 +1,39 @@
+:root {
+  --primary-bg: #1A202C; /* Dark Charcoal */
+  --secondary-bg: #2D3748; /* Lighter Charcoal */
+  --glass-bg: rgba(45, 55, 72, 0.6);
+  --border-color: #4A5568;
+  --primary-accent: #4FD1C5; /* Teal */
+  --text-primary: #E2E8F0; /* Light Gray */
+  --text-secondary: #A0AEC0; /* Medium Gray */
+  --font-family: 'Inter', sans-serif;
+  --card-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  --border-radius: 12px;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-family);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--primary-bg);
+  color: var(--text-primary);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--primary-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--secondary-bg);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--border-color);
+}

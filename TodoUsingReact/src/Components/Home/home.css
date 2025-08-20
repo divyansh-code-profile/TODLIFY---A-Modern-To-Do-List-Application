@@ -1,0 +1,53 @@
+.home-container {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  height: calc(100vh - 80px); /* Full height minus navbar */
+  padding: 2rem;
+  overflow: hidden;
+}
+
+.form-container, .list-container {
+  height: 100%;
+  overflow-y: auto;
+  padding: 1.5rem;
+}
+
+.form-container {
+  flex: 1;
+  max-width: 450px;
+}
+
+.list-container {
+  flex: 2;
+}
+
+/* Glassmorphism Effect */
+.glass-effect {
+  background: var(--glass-bg);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: var(--border-radius);
+  border: 1px solid var(--border-color);
+  box-shadow: var(--card-shadow);
+}
+
+.list-container h2 {
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+  .home-container {
+    flex-direction: column;
+    height: auto;
+    overflow-y: auto;
+  }
+  .form-container {
+    max-width: 100%;
+    margin-bottom: 2rem;
+  }
+}

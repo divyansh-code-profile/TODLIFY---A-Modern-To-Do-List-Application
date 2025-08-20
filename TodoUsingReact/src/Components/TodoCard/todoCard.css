@@ -1,0 +1,64 @@
+.todo-card {
+  width: 100%;
+  margin-bottom: 1.5rem;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  color: var(--text-primary);
+}
+
+.todo-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 32px 0 rgba(0, 0, 0, 0.5);
+}
+
+.card-title {
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.card-subtitle {
+  color: var(--text-secondary);
+}
+
+.card-text {
+  color: var(--text-secondary);
+  margin: 1rem 0;
+}
+
+.status-priority-container {
+  display: flex;
+  gap: 1rem;
+  margin: 0.5rem 0 1rem 0;
+}
+
+.status-priority-container label {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+.status-priority-container select {
+  background-color: var(--secondary-bg);
+  color: var(--text-primary);
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.9rem;
+}
+
+.btn-primary {
+  background-color: var(--primary-accent);
+  border-color: var(--primary-accent);
+  color: var(--primary-bg);
+  font-weight: 600;
+}
+
+.btn-primary:hover {
+  opacity: 0.9;
+  background-color: var(--primary-accent);
+  border-color: var(--primary-accent);
+}
+
+.btn-danger {
+    font-weight: 600;
+}
